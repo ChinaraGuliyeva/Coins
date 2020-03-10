@@ -10,12 +10,14 @@ h1 {
 
 .container {
     display: flex; 
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    margin: 0 100px  
 }
 
 .coin-continer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 650px;
     position: relative;
     font-size: 16px;
     line-height: 19px;
@@ -23,6 +25,14 @@ h1 {
 
 .coin-img {
     width: 172px;
+}
+
+.about-coin{
+    font-size: 13px;
+}
+
+.coin-description-container {
+    margin: 0 7x;
 }
 
 .percent {
@@ -41,10 +51,16 @@ h1 {
 
 .coin-heading {
     color: #833AE0;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.coin-second-container {
+    display: flex;
 }
 
 .price-container{
-    margin: 25px 0 0;
+    margin: 20px 0 0;
 }
 
 .price-one {
