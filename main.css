@@ -8,7 +8,14 @@ h1 {
     text-align: center;
 }
 
+.container {
+    display: flex; 
+    flex-wrap: wrap;   
+}
+
 .coin-continer {
+    display: flex;
+    justify-content: space-around;
     position: relative;
     font-size: 16px;
     line-height: 19px;
@@ -36,6 +43,11 @@ h1 {
     color: #833AE0;
 }
 
+.price-container{
+    margin: 25px 0 0;
+}
+
 .price-one {
     font-weight: bold;
 }
+
