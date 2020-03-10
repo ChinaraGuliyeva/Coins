@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 43px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.coin-continer {
+    position: relative;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.coin-img {
+    width: 172px;
+}
+
+.percent {
+    position: absolute;
+    top: 25px;
+    left: 105px;
+    width: 40px;s
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #833AE0;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+.coin-heading {
+    color: #833AE0;
+}
+
+.price-one {
+    font-weight: bold;
+}
