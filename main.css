@@ -74,3 +74,60 @@ h1 {
     font-weight: bold;
 }
 
+.container-next {
+    display: flex;
+    padding: 50px;
+}
+
+.coin-next-img {
+    width: 463px;
+}
+
+.big-coins-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container-next-page {
+    min-width: 600px;
+    max-width: 900px;
+    background-color: rgba(196, 196, 196, 0.5);
+    padding: 12px 44px;
+}
+
+.next-page-heading {
+    text-align: left;
+}
+
+.artikul, .next-page-cost {
+    color: grey;
+    font-size: 13px;
+}
+
+.artikul-span {
+    font-weight: bold;
+    color: black;
+}
+
+.cost-span {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid grey;    
+    padding: 10px;
+}
+
+td:first-child {
+    border-right: 1px solid black;
+}
+
+tr:nth-child(2n-1) {
+    background-color: white;
+}
