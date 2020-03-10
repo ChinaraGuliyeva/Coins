@@ -85,7 +85,8 @@ h1 {
 
 .container-next {
     display: flex;
-    padding: 20px 200px;
+    justify-content: space-around;
+    margin: 20px auto;
 }
 
 .coin-next-img {
@@ -100,8 +101,8 @@ h1 {
 .text-container-next-page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-width: 600px;
+    justify-content: space-evenly;
+    width: 40%;
     max-width: 900px;
     background-color: rgba(196, 196, 196, 0.5);
     padding: 12px 44px;
@@ -155,4 +156,8 @@ tr:last-child td{
 
 .next-page-description {
     margin: 30px 0
+}
+
+.price-two {
+    color: grey;
 }
