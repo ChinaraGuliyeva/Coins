@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+   text-decoration: none;
+   color: #833AE0;
+}
+
 h1 {
     font-size: 43px;
     line-height: 50px;
