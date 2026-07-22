@@ -2,11 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.coin-next-img {
-    margin: 0;
-    padding: 0;
-}
-
 a {
    text-decoration: none;
    color: #833AE0;
@@ -88,10 +83,6 @@ h1 {
     margin: 20px auto;
 }
 
-.coin-next-img {
-    width: 463px;
-}
-
 .big-coins-container {
     display: flex;
     flex-direction: column;
@@ -168,4 +159,9 @@ tr:last-child td{
 .resize{
     margin: 30px 30px 0 25px;
     width: 125px;
+}
+
+.img-article-resized{
+    width: 400px;
+    margin: 100px;
 }
