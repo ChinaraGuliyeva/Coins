@@ -1,1 +1,1 @@
-# bootcamp-m1
+Boot camp training task. The result can be viewed at https://chinaraguliyeva.github.io/Coins/
